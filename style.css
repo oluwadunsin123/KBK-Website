@@ -552,4 +552,11 @@ span {
         padding: 10px 20px;
         align-items: center;
     }
+     .contact-section .section-content{
+        width: 100%;
+         align-items: start;
+        flex-direction: column-reverse;
+
+     }
+
 }
