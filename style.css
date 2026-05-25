@@ -73,8 +73,8 @@ html{
 
 /* herosection */
 .hero {
-    /* background: url(images/Back.jpeg); */
-    background-color: orangered;
+    background: url(images/Back.jpeg);
+    /* background-color: orangered; */
     background-position: center;
     background-size: cover;
 
@@ -123,13 +123,16 @@ span {
 .section-content .btn-1 {
     padding: 10px 26px;
     background-color: #3b2416de;
-    color: white;
     margin: 15px 15px 15px 0;
     border-radius: 15px 0 15px 20px;
     font-weight: bold;
     transition: 0.3s;
+  
 }
-
+.section-content .btn-1 a{
+    color: white;
+    
+}
 .section-content .btn-1:hover {
     border: 2px solid brown;
     color: white;
@@ -365,10 +368,10 @@ span {
     background: rgb(139, 15, 15);
     transition: 0.3S;
 }
-.contact-section .contact-form  .submit-button:hover{
-    background-color: transparent;
-    color: rgb(139, 15, 15);
+.submit-button a{
+    color: white;
 }
+
 /* footer  */
 .footer-section{
     background-color: rgba(74, 15, 15, 0.895);
@@ -537,7 +540,6 @@ span {
     .section-content .img img {
         display: none;
     }
-
     .section-content .btn-order {
         display: flex;
     }
@@ -557,6 +559,9 @@ span {
          align-items: start;
         flex-direction: column-reverse;
 
+     }
+     .fa-bars .fa-times{
+        color: black;
      }
 
 }

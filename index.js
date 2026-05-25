@@ -15,9 +15,9 @@ navLinks.forEach(link => {
 
 function sendMsg() {
     let name = document.getElementById("enter").value;
-    let phone = "2348082703112";
+    let phone = "2348072677799";
 
-    let message = "Hello, my name is " + name;
+    let message = "Hello, I need a cake " + name;
     let url = "https://wa.me/" + phone + "? text=" +
     encodeURIComponent(message);
 
