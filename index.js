@@ -24,6 +24,6 @@ function sendMsg() {
     encodeURIComponent(message);
 
     window.open(url, "_blank");
-    // window.location.href(url, "_blank");
+   
 
 }
