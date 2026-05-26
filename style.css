@@ -328,33 +328,32 @@ span {
 }
 .contact-section{
     /* background-color:; */
-    padding: 50px 70px 100px;
+    padding: 50px 20px 50px;
     width:100% ;
     /* overflow: hidden; */
 }
 .contact-section .section-content{
     display: flex;
-    gap: 48px;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
 }
 .contact-section .contact-list .contact-info{
     display: flex;
     gap: 20px;
     /* margin: 10px; */
     padding: 10px;
-    align-items: center;
+    align-items: start;
 }
 .contact-section .contact-list .contact-info i{
     font-size: 20px;
 }
 .contact-section .contact-form .form-input{
-    width: 100%;
+    width: 150%;
     height: 50px;
-    background-color: white;
+    background-color: transparent;
     border: 1px solid gainsboro;
     border-radius: 5px;
-   padding:0 250px 0 10px;
+    padding:0 20px 0 10px;
     outline: none;
     margin-bottom: 16px;
 }
@@ -364,10 +363,10 @@ span {
 .contact-section .contact-form  textarea.form-input{
     height: 100px;
     padding: 10px;
-    resize: vertical;
+    
 }
 .contact-section .contact-form{
-    max-width: 50%;
+    max-width: 100%;
 }
 .contact-section .contact-form  .submit-button{
     padding: 10px 26px;
