@@ -33,6 +33,7 @@ html{
     position: fixed;
     width: 100%;
     z-index: 5;
+    background-color: rgba(141, 82, 4, 0.811);
 }
 
 .navbar .nav-menu a {
@@ -133,9 +134,12 @@ span {
     color: white;
     
 }
+.section-content .btn-1 a:hover{
+    color: black;
+}
 .section-content .btn-1:hover {
     border: 2px solid brown;
-    color: white;
+    /* color: brown; */
     background-color: transparent;
 }
 
@@ -250,7 +254,7 @@ span {
 }
 
 .Gallery-section {
-    padding: 40px 0 0 0;
+    padding-top: 40px;
     /* border-top: 1px solid;  */
     /* width: 100%; */
     background-color: rgb(249, 249, 249);
@@ -259,13 +263,21 @@ span {
 .Gallery-section .section-list {
     display: flex;
     /* flex-wrap: wrap; */
+    flex: 5;
+    padding: 20px;
+    justify-content: space-between;
     gap: 32px;
+}
+.Gallery-section .section-list .gallery-item{
+    padding: 20px;
 }
 
 .Gallery-section .section-list img {
     overflow: hidden;
-    width: calc(100% / 3 - 12px);
+    /* width: calc(100% / 3 - 12px);
+     */
     /* width: 240%; */
+    width: 30px;
     height: 80%;
     border-radius: 20px;
 }
@@ -510,8 +522,9 @@ span {
 
     .Gallery-section .section-list .gallery-item {
         margin: 50px 70px;
-        width: 60%;
-        align-items: center;
+        width: 40%;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     .Gallery-section .vids {
@@ -534,9 +547,39 @@ span {
         flex-direction: column;
         gap: 20px;
      }
+       .hero-content {
+    /* justify-content: center; */
+    padding: 150px 20px;
+    }
+    .about-section .abt-details {
+    max-width: 100%;
+    }
+    .section-content .img img {
+        display: none;
+    }
+    .hero-content p{
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width:480px) {
+    .hero-content {
+    /* justify-content: center; */
+    padding: 150px 20px;
+}
+    .hero-content p{
+        max-width: 100%;
+    }
+    .abt-details p {
+        line-height: 30px;
+        margin: 50px 0 30px;
+        text-align: left;
+        font-size: 17px;
+        max-width: 100%;
+    }
+    .about-section .abt-details {
+    max-width: 100%;
+    }
     .section-content .img img {
         display: none;
     }

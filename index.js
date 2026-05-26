@@ -14,10 +14,12 @@ navLinks.forEach(link => {
 })
 
 function sendMsg() {
-    let name = document.getElementById("enter").value;
+    let name = document.getElementById("Enter").value;
+    let email = document.getElementById("Email").value;
+    let msg = document.getElementById("Msg").value;
     let phone = "2348072677799";
 
-    let message = "Hello, I need a cake " + name;
+    let message = "Hello, I am " + name + ". " + "My mail is : " + email + ". " + " and "+ msg;
     let url = "https://wa.me/" + phone + "? text=" +
     encodeURIComponent(message);
 
