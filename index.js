@@ -20,7 +20,7 @@ function sendMsg() {
     let phone = "2348072677799";
 
     let message = "Hello, I am " + name + ". " + "My mail is : " + email + ". " + " and "+ msg;
-    let url = "https://api.whatsapp.com/send?phone=" + phone + "? text=" +
+    let url = "https://wa.me/" + phone + "?text=" +
     encodeURIComponent(message);
 
     window.open(url, "_blank");
